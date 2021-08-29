@@ -1,0 +1,61 @@
+.newDep{
+    flex: 4;
+    
+}
+
+.newDepTitle{
+    text-align: center;
+}
+.newDepFrom{
+    display:flex; 
+    flex-wrap:wrap ;
+    align-items: center;
+}
+
+.newDepItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.newDepItem>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151 ,150,150);
+}
+
+.newDepItem>input{
+    height: 30px;
+    width: inherit;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.newDepGender>label{
+    margin: 10px;
+    font-size: 18px;  
+    color: #555;      
+}
+
+.newDepSelect{
+    height: 30px;
+    width: 135px;
+    border-radius: 5px;
+}
+
+
+.newDepButton{
+    width: 155px;
+    height: 40px;
+    margin-top: 30px ;
+    background-color: rgb(29, 72, 143);
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
